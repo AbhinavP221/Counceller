@@ -154,7 +154,8 @@ body {
 
 .box {
     position: relative;
-    width: 380px;
+    width: 270px;
+    
   }
   
   .glowing::before{
@@ -163,7 +164,7 @@ body {
     left: -2px;
     top: -2px;
     background: linear-gradient(45deg, #e8f74d, #ff6600d9, #00ff66, #13ff13, #ad27ad, #bd2681, #6512b9, #ff3300de, #5aabde);
-    background-size: 400%;
+    background-size: 270%;
     width: calc(86%);
     height: calc(100% + 5px);
     z-index: -1;
@@ -176,7 +177,7 @@ body {
     }
     
     50% {
-      background-position: 400% 0;
+      background-position: 270% 0;
     }
     
     100% {
