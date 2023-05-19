@@ -155,7 +155,6 @@ body {
 .box {
     position: relative;
     width: 380px;
-    
   }
   
   .glowing::before{
