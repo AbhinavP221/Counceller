@@ -14,9 +14,9 @@
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="#">
+            <!-- <a class="navbar-brand" href="#">
                 <img src="logo.jpg" alt="Logo">
-            </a>
+            </a> -->
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,53 +37,32 @@
                 </ul>
             </div>
         </nav>
-
-            <div class="container plans" style="margin-top: 20px;">
-                <h style="font-size: larger; font-weight: bold; color: rgba(66, 64, 64, 0.852);">JOSAA</h>
-                <div class="row">
-                    <div class="card col-lg-4 col-md-4 col-sm-12 text-center">
-                        <img class="card-img-top rounded-circle" src="" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Immature</h4>
-                            <p class="card-text">Plan Description</p>
-                        </div>                      
-                    </div>
-                    <div class="card col-lg-4 col-md-4 col-sm-12 text-center">
-                        <img class="card-img-top rounded-circle" src="" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Mature</h4>
-                            <p class="card-text">Plan Description</p>
-                        </div>                      
-                    </div>
-                    <div class="card col-lg-4 col-md-4 col-sm-12 text-center">
-                        <img class="card-img-top rounded-circle" src="" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">Guardian</h4>
-                            <p class="card-text">Plan Description</p>
-                        </div>                      
-                    </div>
-                </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="Josaa plan.png" alt="Josaa plan">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="UPSEE plan.png" alt="UPSEE plan">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="JAC-Delhi plan.png" alt="JAC-Delhi plan">
+              </div>
             </div>
-            <div class="container plans" style="margin-top: 20px; margin-bottom: 30px;">
-                <h style="font-size: larger; font-weight: bold; color: rgba(66, 64, 64, 0.852);">JAC and UPSEE</h>
-                <div class="row">
-                    <div class="card col-lg-4 col-md-4 col-sm-12 text-center">
-                        <img class="card-img-top rounded-circle" src="" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">JAC</h4>
-                            <p class="card-text">Plan Description</p>
-                        </div>  
-                    </div>                        
-                
-                    <div class="card col-lg-4 col-md-4 col-sm-12 text-center">
-                        <img class="card-img-top rounded-circle" src="" alt="Card image">
-                        <div class="card-body">
-                            <h4 class="card-title">UPSEE</h4>
-                            <p class="card-text">Plan Description</p>
-                        </div>                      
-                    </div>
-                </div>    
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
             
     <footer class="page-footer">
         <div class="container">
@@ -103,17 +82,17 @@
                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
                 <p>NIT Andhra Pradesh, INDIA<br/>counselxpert@gmail.com<br/>+91 8271581249<br/>+91 8340710427</p>
                 <div class="social-media">
-                        <a href="https://www.facebook.com/groups/154580264155199/?ref=share_group_link" class="social-icon">
-                            <img src="facebook.png" alt="Facebook" height="30px">
-                        </a>
-                        <a href="https://instagram.com/counselxperts?igshid=ZGUzMzM3NWJiOQ==" class="social-icon">
-                            <img src="instagram.png" alt="Instagram" height="35px">
-                        </a>
-                        <a href="https://youtube.com/@CounselExperts" class="social-icon">
-                            <img src="youtube.png" alt="YouTube" height="35px">
-                        </a>
-                        
-                    </div>
+                    <a href="https://www.facebook.com/groups/154580264155199/?ref=share_group_link" class="social-icon">
+                        <img src="facebook.png" alt="Facebook" height="30px">
+                    </a>
+                    <a href="https://instagram.com/counselxperts?igshid=ZGUzMzM3NWJiOQ==" class="social-icon">
+                        <img src="instagram.png" alt="Instagram" height="35px">
+                    </a>
+                    <a href="https://youtube.com/@CounselExperts" class="social-icon">
+                        <img src="youtube.png" alt="YouTube" height="35px">
+                    </a>
+                    
+                </div>
             </div>
         <div>
         <div class="footer-copyright text-center">© 2023 Copyright: CounselXpert.com</div>
