@@ -89,7 +89,41 @@
                     </div>
                 </div>
             </div>
-
+            <script>
+                const checkbox1 = document.getElementById('gridCheck1');
+                const checkbox2 = document.getElementById('gridCheck2');
+                const checkbox3 = document.getElementById('gridCheck3');
+              
+                checkbox1.addEventListener('change', function () {
+                  if (checkbox1.checked) {
+                    checkbox2.disabled = true;
+                    checkbox3.disabled = true;
+                  } else {
+                    checkbox2.disabled = false;
+                    checkbox3.disabled = false;
+                  }
+                });
+              
+                checkbox2.addEventListener('change', function () {
+                  if (checkbox2.checked) {
+                    checkbox1.disabled = true;
+                    checkbox3.disabled = true;
+                  } else {
+                    checkbox1.disabled = false;
+                    checkbox3.disabled = false;
+                  }
+                });
+              
+                checkbox3.addEventListener('change', function () {
+                  if (checkbox3.checked) {
+                    checkbox1.disabled = true;
+                    checkbox2.disabled = true;
+                  } else {
+                    checkbox1.disabled = false;
+                    checkbox2.disabled = false;
+                  }
+                });
+              </script>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Tell us about yourself</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -120,7 +154,7 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                <p>NIT Andhra Pradesh, INDIA<br/>counselxpert@gmail.com<br/>+91 8271581249<br/>+91 8340710427</p>
+                <p>counselxpert@gmail.com<br/>+91 8271581249<br/>+91 8340710427</p>
                 <div class="social-media">
                         <a href="https://www.facebook.com/groups/154580264155199/?ref=share_group_link" class="social-icon">
                             <img src="facebook.png" alt="Facebook" height="30px">
